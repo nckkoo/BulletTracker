@@ -1,0 +1,69 @@
+
+# Bullet Tracker
+
+Bullet Tracker is a program for visually marking and managing bullet states, created using Python and Tkinter.
+
+## Features
+- Visual marking of loaded and empty chambers.
+- Toggle states of chambers using mouse clicks or keys 1-8 (or numpad keys).
+- Movable separator to divide loaded and empty chambers.
+
+## Installation
+1. Make sure Python 3 is installed on your system.
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/bullet-tracker.git
+   ```
+3. Navigate to the project directory:
+   ```bash
+   cd bullet-tracker
+   ```
+4. Run the program:
+   ```bash
+   python bullet_tracker.py
+   ```
+
+## Building an Executable
+To build a `.exe` file for Windows, you can use PyInstaller:
+   ```bash
+   pyinstaller --onefile --windowed bullet_tracker.py
+   ```
+
+## License
+This project is licensed under the MIT License.
+
+
+...................................................................................................
+
+# Bullet Tracker
+
+Bullet Tracker — это программа для визуальной отметки и управления зарядами, созданная с использованием Python и Tkinter.
+
+## Функционал
+- Визуальная отметка заряженных и пустых ячеек.
+- Переключение состояния ячеек с помощью мыши и клавиш 1-8 или нумпад.
+- Перемещение и фиксация перегородки для разделения зарядов.
+
+## Установка
+1. Убедитесь, что у вас установлен Python 3.
+2. Склонируйте репозиторий:
+   ```bash
+   git clone https://github.com/yourusername/bullet-tracker.git
+   ```
+3. Перейдите в папку проекта:
+   ```bash
+   cd bullet-tracker
+   ```
+4. Запустите программу:
+   ```bash
+   python bullet_tracker.py
+   ```
+
+## Сборка исполняемого файла
+Если хотите собрать `.exe` файл для Windows, используйте PyInstaller:
+   ```bash
+   pyinstaller --onefile --windowed bullet_tracker.py
+   ```
+
+## Лицензия
+Проект распространяется под лицензией MIT.
