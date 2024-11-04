@@ -23,7 +23,7 @@ canvas.pack(pady=20)
 # List to store button objects for easy reference
 bullets = []
 
-# Function to toggle button state (0 -> 1 -> 2 -> 0) on click or key press1
+# Function to toggle button state (0 -> 1 -> 2 -> 0) on click or key press
 def toggle_bullet(index):
     # Save the current state for Undo purposes
     action_history.append((index, bullet_states[index]))
@@ -43,6 +43,7 @@ def undo_action(event=None):
         redo_history.append((index, bullet_states[index]))  # Save current state to redo history
         bullet_states[index] = previous_state
         canvas.itemconfig(bullets[index]['circle'], fill=colors[previous_state])
+        update_last_key("CTRL+Z (Undo)")
 
 # Function to redo the last undone action
 def redo_action(event=None):
@@ -51,6 +52,7 @@ def redo_action(event=None):
         action_history.append((index, bullet_states[index]))  # Save current state to action history
         bullet_states[index] = previous_state
         canvas.itemconfig(bullets[index]['circle'], fill=colors[previous_state])
+        update_last_key("CTRL+SHIFT+Z (Redo)")
 
 # Function to update the last key label
 def update_last_key(text):
@@ -87,6 +89,7 @@ def reset_bullets():
     for i in range(8):
         bullet_states[i] = 0  # Reset each button state
         canvas.itemconfig(bullets[i]['circle'], fill=colors[0])  # Reset color to default
+    canvas.coords(separator, 405, 10, 405, 240)  # Reset separator to center position
     update_last_key("Space (RESET)")
 
 # RESET button with red color
@@ -154,11 +157,11 @@ bottom_frame = tk.Frame(root, bg="black")
 bottom_frame.pack(side="bottom", fill="x", padx=10, pady=10)  # Padding around the entire frame
 
 # Developer credit label on the left
-credit_text = tk.Label(root, text="DEVELOPED BY NIKITA KOVALENKO", font=("Helvetica", 10), fg="gray", bg="black", anchor="w")
+credit_text = tk.Label(bottom_frame, text="DEVELOPED BY NIKITA KOVALENKO", font=("Helvetica", 10), fg="gray", bg="black", anchor="w")
 credit_text.pack(side="left", padx=(9.5, 9.5), pady=5)  # Padding to the right and top/bottom
 
 # Last key label on the right
-last_key_label = tk.Label(root, text="LAST KEY: NONE", font=("Helvetica", 10), fg="gray", bg="black", anchor="e")
+last_key_label = tk.Label(bottom_frame, text="LAST KEY: NONE", font=("Helvetica", 10), fg="gray", bg="black", anchor="e")
 last_key_label.pack(side="right", padx=(9.5, 9.5), pady=5)  # Padding to the left and top/bottom
 
 root.mainloop()
