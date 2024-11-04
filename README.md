@@ -6,7 +6,7 @@ Bullet Tracker is a program for visually marking and managing bullet states, cre
 ## Features
 - Visual marking of loaded and empty chambers.
 - Toggle states of chambers using mouse clicks or keys 1-8 (or numpad keys).
-- Movable separator to divide loaded and empty chambers. Use mouse or CTRL+ keys 1-8 (or numpad keys) to move the separator.
+- Movable separator to divide loaded and empty chambers. Use mouse or CTRL + keys 1-8 (or numpad keys) to move the separator.
 
 ## Installation
 1. Make sure Python 3 is installed on your system.
