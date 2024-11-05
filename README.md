@@ -34,6 +34,7 @@ To build a `.exe` file for Windows, you can use PyInstaller:
 ## License
 This project is licensed under the MIT License.
 
+![python_coXWkXOIXR](https://github.com/user-attachments/assets/7412d095-a9a7-48ea-9179-e1a842324bc9)
 
 ...................................................................................................
 
