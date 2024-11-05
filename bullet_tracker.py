@@ -180,13 +180,12 @@ def move_separator(event):
 
 hotkeys1 = [
     ("             1 2 3 4 5 6 7 8", "|   COUNT SHELLS"),
-    ("CTRL + 1 2 3 4 5 6 7 8", "|   MOVE SEPARATOR"),
-    
+    ("CTRL + 1 2 3 4 5 6 7 8", "|   MOVE SEPARATOR")
 ]
 
 hotkeys2 = [
-    ("CTRL + ALT + 1 2 3 4 5 6 7 8", "|   COUNT BLANK SHELLS"),
-    ("ALT + 1 2 3 4 5 6 7 8", "|   COUNT LIVE SHELLS")
+    ("ALT + 1 2 3 4 5 6 7 8", "|   COUNT LIVE SHELLS"),
+    ("CTRL + ALT + 1 2 3 4 5 6 7 8", "|   COUNT BLANK SHELLS")
 ]
 
 canvas.tag_bind(separator, "<Button-1>", start_move)
@@ -218,7 +217,7 @@ bottom_frame.grid_columnconfigure(2, weight=1)
 
 contact_text = tk.Label(bottom_frame, text="CONTACT", font=("Helvetica", 10), fg="gray", bg="black", cursor="hand2")
 contact_text.grid(row=1, column=0, sticky="w", padx=(10, 0))
-contact_text.bind("<Button-1>", lambda e: webbrowser.open("mailto:nckkoo.wwm@gmail.com"))
+contact_text.bind("<Button-1>", lambda e: webbrowser.open("https://www.t.me/backwoodshoneyberry"))
 
 hotkeys_frame1 = tk.Frame(root, bg="black")
 hotkeys_frame1.place(x=10, y=300)
