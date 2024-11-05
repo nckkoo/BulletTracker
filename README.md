@@ -14,7 +14,7 @@ Bullet Tracker is a program for visually marking and managing bullet states, cre
 1. Make sure Python 3 is installed on your system.
 2. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bullet-tracker.git
+   git clone https://github.com/nckkoo/BulletTracker.git
    ```
 3. Navigate to the project directory:
    ```bash
@@ -53,7 +53,7 @@ Bullet Tracker — это программа для визуальной отм�
 1. Убедитесь, что у вас установлен Python 3.
 2. Склонируйте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/bullet-tracker.git
+   git clone https://github.com/nckkoo/BulletTracker.git
    ```
 3. Перейдите в папку проекта:
    ```bash
