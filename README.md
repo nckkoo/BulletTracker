@@ -7,8 +7,8 @@ Bullet Tracker is a program for visually marking and managing bullet states, cre
 - Visual marking of loaded and empty chambers [MOUSE OR 1-8]
 - Visual marking of the quantity of live and blank shells [MOUSE OR ALT / CTRL + ALT + 1-8]
 - Movable separator to divide loaded and empty chambers [MOUSE OR CTRL + 1-8]
-- Last Key Display: The last pressed key or combination is now shown in the bottom-right corner
-- Global Hotkeys: Allows the program to respond to the following key combinations even when it's not in focus
+- Last Key Display: the last pressed key or combination is  shown in the bottom-right corner
+- Global Hotkeys: allows the program to respond to the following key combinations even when it's not in focus
 
 ## Installation
 1. Make sure Python 3 is installed on your system.
@@ -34,6 +34,7 @@ To build a `.exe` file for Windows, you can use PyInstaller:
 ## License
 This project is licensed under the MIT License.
 
+![python_coXWkXOIXR](https://github.com/user-attachments/assets/7412d095-a9a7-48ea-9179-e1a842324bc9)
 
 ...................................................................................................
 
@@ -45,8 +46,8 @@ Bullet Tracker — это программа для визуальной отм�
 - Визуальная отметка боевых и холостых патронов [МЫШЬ ИЛИ 1-8]
 - Визуальная отметка количества боевых и холостых патронов [МЫШЬ ИЛИ ALT / CTRL + ALT + 1-8]
 - Перемещение и фиксация перегородки для разделения зарядов [МЫШЬ ИЛИ CTRL + 1-8]
-- Отображение последнего нажатия: В правом нижнем углу теперь отображается последняя нажатая клавиша или комбинация
-- Глобальные Хоткеи: Позволяет программе реагировать на соответствующие комбинации даже если программа не в фокусе
+- Отображение последнего нажатия:  вправом нижнем углу  отображается последняя нажатая клавиша или комбинация
+- Глобальные Хоткеи: позволяет программе реагировать на соответствующие комбинации даже если программа не в фокусе
 
 ## Установка
 1. Убедитесь, что у вас установлен Python 3.
